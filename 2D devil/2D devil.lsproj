@@ -1,9 +1,9 @@
 {
-    "lens_id": "",
+    "lens_id": "ab358a47-24a9-43d0-9027-2838aa223c70",
     "document_id": "IK1Nhqwfelv1rn_pp-Vu",
     "original_document_id": "IK1Nhqwfelv1rn_pp-Vu",
     "version": "24",
-    "lastChanged": "1602013149731",
+    "lastChanged": "1602266090101",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -41,23 +41,41 @@
                         "Specular"
                     ],
                     [
+                        "Particles",
+                        "Particles Emitter Material"
+                    ],
+                    [
+                        "Particles",
+                        "Particles Mesh"
+                    ],
+                    [
+                        "Particles",
+                        "Particles Texture"
+                    ],
+                    [
                         "Untitled-1"
                     ],
                     [
-                        "ed"
+                        "download (3)"
                     ]
                 ]
             ]
         },
         "SceneTreeUiComponent": {
             "collapsedList": [
-                ""
+                [
+                    "1602011586521417:113929"
+                ]
             ]
         },
         "MetaInfoUIComponent": {
+            "icon_hash": "4854c0a850f25e9b4a8a1256f943653a",
+            "icon_path": "icon.png",
             "video_preview_path": "preview.mp4",
-            "hints": "",
-            "lens": "Untitled",
+            "hints": [
+                "lens_hint_smile"
+            ],
+            "lens": "Red horn devil",
             "applicability": "3",
             "lens_descriptors": ""
         },
@@ -71,7 +89,7 @@
             "preview_images_project_config": {
                 "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:Preview\/Images\/Pair 1.jpg",
+                "front_preview_id": "bundle:Preview\/Images\/Person 3.jpg",
                 "front_preview_is_favorite": "false",
                 "spectacles_preview_id": "bundle:Preview\/Images\/Pavement\/Pavement.jpg",
                 "spectacles_preview_is_favorite": "false"
@@ -79,23 +97,24 @@
             "preview_videos_project_config": {
                 "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:Preview\/Videos\/Idle Person 1.webm",
+                "front_preview_id": "bundle:Preview\/Videos\/Raise Eyebrows Person 2.webm",
                 "front_preview_is_favorite": "false",
                 "spectacles_preview_id": "bundle:Preview\/Videos\/Climbing\/Climbing.webm",
                 "spectacles_preview_is_favorite": "false"
             },
             "preview_ie_project_config": {
-                "back_preview_id": "",
+                "back_preview_id": "bundle:Preview\/InteractiveEnvironments\/House",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "",
+                "front_preview_id": "bundle:Preview\/InteractiveEnvironments\/House",
                 "front_preview_is_favorite": "false",
-                "spectacles_preview_id": "",
+                "spectacles_preview_id": "bundle:Preview\/InteractiveEnvironments\/House",
                 "spectacles_preview_is_favorite": "false"
             }
         },
         "InspectorUiComponent": {
             "collapsedList": [
                 [
+                    "1528843813151473:5129",
                     "1602010705807720:3570",
                     "1602010729158408:6643",
                     "1602010747965188:9337",
@@ -104,7 +123,9 @@
                     "1602011311086436:78392",
                     "1602011445973725:94881",
                     "1602011552565539:109153",
-                    "1602011586522183:113930"
+                    "1602011586522183:113930",
+                    "1602257294457653:68553",
+                    "1602257455877249:96623"
                 ]
             ]
         },
@@ -148,17 +169,41 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "12",
-                    "uid": "1602010800254147:15809",
-                    "name": "Files\/File8.png",
+                    "resId": "15",
+                    "uid": "1602011329407294:80803",
+                    "name": "Files\/File14.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
                 },
                 {
-                    "resId": "15",
-                    "uid": "1602011329407294:80803",
-                    "name": "Files\/File14.png",
+                    "resId": "16",
+                    "uid": "1602256878124694:11539",
+                    "name": "Files\/File16.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "17",
+                    "uid": "1602261876612292:511655",
+                    "name": "Files\/File18.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "18",
+                    "uid": "1602261876828023:511671",
+                    "name": "Files\/File20",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "19",
+                    "uid": "1602261877323868:511694",
+                    "name": "Files\/File22.mesh",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -182,7 +227,7 @@
                                         "x": "0.666666687",
                                         "y": "0",
                                         "z": "0",
-                                        "w": "0.449999988"
+                                        "w": "0.330000013"
                                     }
                                 }
                             }
@@ -194,26 +239,96 @@
                     "uidsToFeatureNamesWithIntensity": ""
                 },
                 "ScreenTransform": {
-                    "uidData": "",
+                    "uidData": [
+                        {
+                            "k": "1602262174796796:551552",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1602262175023585:551856",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1602262176180889:552974",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        }
+                    ],
                     "generalData": ""
                 }
             }
         },
         "RenderOrderComponent": {
             "autoRenderOrder": {
-                "0": "1517446348227994:84813",
-                "1": "1517446348228144:84822",
-                "2": "1528843813151434:5126",
-                "3": "1602010705806883:3569",
-                "4": "1602011311086436:78392",
-                "5": "1602011445973725:94881",
-                "6": "1602011586521417:113929",
-                "7": "1602011586522183:113930"
+                "0": "1602010705806883:3569",
+                "1": "1602011445973725:94881",
+                "2": "1602011586521417:113929",
+                "3": "1602011586522183:113930",
+                "4": "1602257519146920:105441",
+                "5": "1602262174784935:551485",
+                "6": "1602262174796504:551551",
+                "7": "1602262174826509:551687",
+                "8": "1602262175022996:551855",
+                "9": "1602262175383486:552089",
+                "10": "1602262175415543:552235",
+                "11": "1602262175795938:552462",
+                "12": "1602262175822358:552608",
+                "13": "1602262176144245:552823",
+                "14": "1602262176180459:552973",
+                "15": "1602262176467543:553184",
+                "16": "1602262176498199:553330",
+                "17": "1602262176857484:553553",
+                "18": "1602262176888735:553699",
+                "19": "1602262177208653:553918",
+                "20": "1602262177233815:554060",
+                "21": "1602262177514916:554275",
+                "22": "1602262177541878:554421",
+                "23": "1602263337657586:711264",
+                "24": "1602263337658986:711266",
+                "25": "1602263350857277:713891",
+                "26": "1602263350858703:713893",
+                "27": "1602263353210023:715727",
+                "28": "1602263353211211:715729",
+                "29": "1602263355729751:717706",
+                "30": "1602263355731718:717708",
+                "31": "1602263360402266:720004",
+                "32": "1602263360403700:720006",
+                "33": "1602263397793494:725267",
+                "34": "1602263397795459:725271"
             }
         },
         "LayerComponent": {
             "nextLayerId": "2",
-            "showOrthographicLayer": "false",
+            "showOrthographicLayer": "true",
             "layersInfo": [
                 {
                     "layerId": "0",
@@ -252,20 +367,44 @@
                     "v": "Files\/File7.hdr"
                 },
                 {
-                    "k": "8",
-                    "v": "Files\/File8.png"
-                },
-                {
-                    "k": "9",
-                    "v": "Files\/File9.png"
-                },
-                {
                     "k": "14",
                     "v": "Files\/File14.png"
                 },
                 {
                     "k": "15",
                     "v": "Files\/File15.png"
+                },
+                {
+                    "k": "16",
+                    "v": "Files\/File16.png"
+                },
+                {
+                    "k": "17",
+                    "v": "Files\/File17.png"
+                },
+                {
+                    "k": "18",
+                    "v": "Files\/File18.jpg"
+                },
+                {
+                    "k": "19",
+                    "v": "Files\/File19.jpg"
+                },
+                {
+                    "k": "20",
+                    "v": "Files\/File20"
+                },
+                {
+                    "k": "21",
+                    "v": "Files\/File21.lsmat"
+                },
+                {
+                    "k": "22",
+                    "v": "Files\/File22.mesh"
+                },
+                {
+                    "k": "23",
+                    "v": "Files\/File23.mesh"
                 }
             ]
         },
@@ -283,12 +422,28 @@
                         "v": "Echopark.hdr"
                     },
                     {
-                        "k": "968",
-                        "v": "ed.png"
+                        "k": "972",
+                        "v": "Untitled-1.png"
                     },
                     {
-                        "k": "971",
-                        "v": "Untitled-1.png"
+                        "k": "973",
+                        "v": "download (3).png"
+                    },
+                    {
+                        "k": "974",
+                        "v": "Particles"
+                    },
+                    {
+                        "k": "975",
+                        "v": "Particles\/Particles Texture.jpg"
+                    },
+                    {
+                        "k": "976",
+                        "v": "Particles\/Particles Emitter Material.lsmat"
+                    },
+                    {
+                        "k": "977",
+                        "v": "Particles\/Particles Mesh.mesh"
                     }
                 ],
                 "hashes": [
@@ -319,27 +474,51 @@
                     {
                         "k": "971",
                         "v": "8218710f9d33acdd1261d7742491d514"
+                    },
+                    {
+                        "k": "972",
+                        "v": "8218710f9d33acdd1261d7742491d514"
+                    },
+                    {
+                        "k": "973",
+                        "v": "94288c385dc5f1f4bd62bbe57dce3bed"
+                    },
+                    {
+                        "k": "975",
+                        "v": "633e6164fd04c2de5d7f0ed88b3dd76d"
+                    },
+                    {
+                        "k": "976",
+                        "v": "1eac2b18e7a4fb967c3bf6f8896dd7ea"
+                    },
+                    {
+                        "k": "977",
+                        "v": "9cf6125d8ce9ba874fe0ff27b21b2323"
+                    },
+                    {
+                        "k": "978",
+                        "v": "5ee61feba59137cba37a181dc9ff6955"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-10-07T00:38:49",
+                        "lastModified": "2020-10-09T22:58:41",
                         "name": "Public",
-                        "hash": "6e3252619f5f97658bfd0c3a688ee41f",
+                        "hash": "26fdcd6327a3b7b9ed33397a41662f5c",
                         "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-10-09T20:46:11",
+                                "name": "download (3).png",
+                                "hash": "94288c385dc5f1f4bd62bbe57dce3bed",
+                                "children": ""
+                            },
                             {
                                 "isFolder": "false",
                                 "lastModified": "2020-08-07T09:15:24",
                                 "name": "Echopark.hdr",
                                 "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-10-07T00:26:44",
-                                "name": "ed.png",
-                                "hash": "f323f696189c14e810e37042b925e006",
                                 "children": ""
                             },
                             {
@@ -350,8 +529,44 @@
                                 "children": ""
                             },
                             {
+                                "isFolder": "true",
+                                "lastModified": "2020-10-09T22:18:35",
+                                "name": "Particles",
+                                "hash": "3ad50697a5ecea1cd05f2be6ec17ec09",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-10-09T22:14:36",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-10-09T22:18:35",
+                                        "name": "Particles Emitter Material.lsmat",
+                                        "hash": "1eac2b18e7a4fb967c3bf6f8896dd7ea",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-10-09T22:14:36",
+                                        "name": "Particles Mesh.mesh",
+                                        "hash": "9cf6125d8ce9ba874fe0ff27b21b2323",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-10-09T22:14:36",
+                                        "name": "Particles Texture.jpg",
+                                        "hash": "633e6164fd04c2de5d7f0ed88b3dd76d",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
                                 "isFolder": "false",
-                                "lastModified": "2020-10-07T00:38:44",
+                                "lastModified": "2020-10-09T20:49:49",
                                 "name": "Untitled-1.png",
                                 "hash": "8218710f9d33acdd1261d7742491d514",
                                 "children": ""
@@ -385,7 +600,11 @@
                         "originalId": "18446744073709551615",
                         "publicId": "18446744073709551615",
                         "source": "",
-                        "additional": ""
+                        "additional": {
+                            "resourceInfoExportKey": {
+                                "RenderTargetRole": "1"
+                            }
+                        }
                     },
                     {
                         "name": "Device Camera Texture",
@@ -442,19 +661,6 @@
                         ]
                     },
                     {
-                        "name": "ed",
-                        "type": "1",
-                        "subtype": "9",
-                        "resourceId": "12",
-                        "dependency": "0",
-                        "uid": "1602010800254147:15809",
-                        "fileId": "8",
-                        "originalId": "9",
-                        "publicId": "968",
-                        "source": "D:\/Hobby\/Developing stuff\/snap lens\/ed.png",
-                        "additional": ""
-                    },
-                    {
                         "name": "Untitled-1",
                         "type": "1",
                         "subtype": "9",
@@ -463,9 +669,96 @@
                         "uid": "1602011329407294:80803",
                         "fileId": "14",
                         "originalId": "15",
-                        "publicId": "971",
+                        "publicId": "972",
                         "source": "C:\/Users\/Harshit\/Desktop\/Untitled-1.png",
                         "additional": ""
+                    },
+                    {
+                        "name": "download (3)",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "16",
+                        "dependency": "0",
+                        "uid": "1602256878124694:11539",
+                        "fileId": "16",
+                        "originalId": "17",
+                        "publicId": "973",
+                        "source": "C:\/Users\/Harshit\/Desktop\/download (3).png",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Particles",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "974",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Particles Texture",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "17",
+                                "dependency": "0",
+                                "uid": "1602261876612292:511655",
+                                "fileId": "18",
+                                "originalId": "19",
+                                "publicId": "975",
+                                "source": "C:\/Users\/Harshit\/AppData\/Local\/Temp\/Lens Studio-TpLZQV\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Particles Emitter Material",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "18",
+                                "dependency": "0",
+                                "uid": "1602261876828023:511671",
+                                "fileId": "20",
+                                "originalId": "21",
+                                "publicId": "976",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Particles Mesh",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "19",
+                                "dependency": "0",
+                                "uid": "1602261877323868:511694",
+                                "fileId": "22",
+                                "originalId": "23",
+                                "publicId": "977",
+                                "source": "C:\/Users\/Harshit\/AppData\/Local\/Temp\/Lens Studio-TpLZQV\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                "additional": {
+                                    "originalAttribs": {
+                                        "vertexAttribs": [
+                                            {
+                                                "semantic": "position",
+                                                "format": "0",
+                                                "index": "0"
+                                            },
+                                            {
+                                                "semantic": "color",
+                                                "format": "2",
+                                                "index": "1"
+                                            },
+                                            {
+                                                "semantic": "texture0",
+                                                "format": "2",
+                                                "index": "2"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
                     }
                 ]
             }
